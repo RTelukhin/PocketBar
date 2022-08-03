@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Home Screen-->
+    <style name="CocktailBaseImgStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:tintMode">src_over</item>
+        <item name="tint">@color/blackTint</item>
+    </style>
+
+    <style name="RumStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/rum</item>
+    </style>
+
+    <style name="GinStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/gin</item>
+    </style>
+
+    <style name="TequilaStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/tequila</item>
+    </style>
+
+    <style name="WhiskeyStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/whiskey</item>
+    </style>
+
+    <style name="VodkaStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/vodka</item>
+    </style>
+
+    <style name="BrandyStyle" parent="CocktailBaseImgStyle">
+        <item name="android:src">@drawable/brandy</item>
+    </style>
+
+</resources>

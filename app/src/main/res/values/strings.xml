@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PocketBar</string>
+
+    <!--Bottom menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--Home screen-->
+    <string name="cocktail_base_text">Cocktail base</string>
+    <string name="rum_text">Rum</string>
+    <string name="gin_text">Gin</string>
+    <string name="whiskey_text">Whiskey</string>
+    <string name="vodka_text">Vodka</string>
+    <string name="brandy_text">Brandy</string>
+    <string name="tequila_text">Tequila</string>
+
+    <string name="soft_text">Soft Drinks</string>
+    <string name="hard_text">Hard Drinks</string>
+
+
+    <!--Search screen-->
+    <string name="clicked_0_times">Clicked %s times</string>
+
+
+</resources>

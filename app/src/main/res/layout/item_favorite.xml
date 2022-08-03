@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/drinkImage"
+        android:layout_width="@dimen/recycler_item_img_width_height"
+        android:layout_height="@dimen/recycler_item_img_width_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/recycler_item_margin"
+        android:scaleType="fitXY"
+        app:riv_corner_radius="@dimen/recycler_item_img_corner_radius" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/drinkTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        tools:text="Details" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/favStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/ic_delete_favorite" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

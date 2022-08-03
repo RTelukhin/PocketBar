@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.pocketcocktails.pocketbar.presentation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_cocktail_by_base"
+            app:destination="@id/fragment_search_by_base" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_favorites"
+        android:name="com.pocketcocktails.pocketbar.presentation.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/fragment_search"
+        android:name="com.pocketcocktails.pocketbar.presentation.search.SearchByQueryFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_fragment_search_to_fragment_cocktail"
+            app:destination="@id/fragment_cocktail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.pocketcocktails.pocketbar.presentation.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/fragment_cocktail"
+        android:name="com.pocketcocktails.pocketbar.presentation.cocktail.CocktailFragment"
+        android:label="fragment_cocktail"
+        tools:layout="@layout/fragment_cocktail">
+        <argument
+            android:name="drinkId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_search_by_base"
+        android:name="com.pocketcocktails.pocketbar.presentation.search.SearchByBaseFragment"
+        android:label="fragment_cocktail_by_base"
+        tools:layout="@layout/fragment_search_by_base">
+        <argument
+            android:name="baseString"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragment_search_to_fragment_cocktail"
+            app:destination="@id/fragment_cocktail" />
+    </fragment>
+
+
+</navigation>

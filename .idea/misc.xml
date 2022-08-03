@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/drawable/app_icon_foreground.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/layout/activity_main.xml" value="0.4166666666666667" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/layout/fragment_cocktail.xml" value="0.3104166666666667" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/layout/item_cocktail.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Bar_NEW/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/drawable/gradient.xml" value="0.385" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/drawable/gradientr.xml" value="0.385" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_chose_type.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_cocktail.xml" value="0.3109375" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_cocktail_by_base.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_favorite_cocktails.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_favorites.xml" value="0.3109375" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_hard_soft_cocktails.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_home2.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_profie.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_profile.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_search.xml" value="0.3109375" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/layout/fragment_search_by_base.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/PocketBar/PocketBar/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.55" />
+        <entry key="..\:/Users/Roman/Desktop/PocketBar/app/src/main/res/layout/fragment_home.xml" value="0.55" />
+        <entry key="..\:/Users/Roman/Desktop/PocketBar/app/src/main/res/layout/fragment_profile.xml" value="0.55" />
+        <entry key="..\:/Users/Roman/Desktop/PocketBar/app/src/main/res/layout/fragment_search_by_base.xml" value="0.55" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.326" />
+        <entry key="app/src/main/res/drawable/img.xml" value="0.326" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.326" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3767605633802817" />
+        <entry key="app/src/main/res/layout/fragment_profie.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
